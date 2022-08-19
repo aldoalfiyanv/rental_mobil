@@ -120,8 +120,7 @@ class C_Pesanan extends Controller {
 			$filter_tgl_awal = ''; 
 			$filter_tgl_akhir = '';
 		}
-		// var_dump($filter_tgl_awal, $filter_tgl_akhir);
-		// var_dump($this->pesanan->lihat($filter_tgl_awal,$filter_tgl_akhir));
+		
 		$data = [
 			'aktif' => 'pesanan',
 			'judul' => 'Report',
